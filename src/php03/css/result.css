@@ -1,0 +1,46 @@
+.result__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+    border: 2px solid pink;
+    }
+
+.result {
+    text-align: center;
+    border: 2px solid greenyellow;
+}
+
+.result__text--correct {
+    color: #ff0000;
+}
+
+.result__text--incorrect {
+    color: #0000ff;
+}
+
+.answer-table {
+    border: 10px solid #ddd;
+}
+
+.answer-table__inner {
+    width: 100%;
+}
+
+.answer-table__header {
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #fff0f5;
+    background-color: #fff0f5;
+    font-weight: bold;
+    border-bottom: 1px solid orangered;
+}
+
+.answer-table__text {
+    padding: 15px;
+    border-bottom: 1px solid blueviolet;
+}
+.answer-table__row:last-child .answer-table__header,
+.answer-table__row:last-child .answer-table__text {
+    border-bottom-width: 0;
+}
+/*  border-bottom-width:で下線を無くしてる。none;じゃダメだった */

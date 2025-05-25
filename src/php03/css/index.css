@@ -1,0 +1,69 @@
+.quiz__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+    border: 5px solid #ffdab9;
+}
+.question {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 550px;
+    border-radius: 3px;
+    background: gray;
+    text-align: center;
+    border: 2px solid orange;
+}
+.question__text {
+    color: #fff;
+    text-align: left;
+    border: 2px solid yellow;
+}
+.quiz-form {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 550px;
+    text-align: center;
+    border: 2px solid blue;
+}
+.quiz-form__item {
+    margin-bottom: 30px;
+    border: 2px solid green;
+}
+.quiz-form__group {
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    border: 2px solid red;
+}
+.quiz-form__radio {
+    display: none;
+}
+/* ラジオボタン消せるとか！！ */
+
+.quiz-form__radio:checked+label {
+    background: #e0ffff;
+}
+/* チェックすると色を変えられる */
+
+.quiz-form__label {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.quiz-form__button {
+    width: 550px;
+    border: 2px solid greenyellow;
+}
+.quiz-form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: gray;
+    color: #fff;
+    cursor: pointer;
+    border: 5px solid pink;
+}

@@ -1,0 +1,51 @@
+.result__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+    border: 2px solid orange;
+}
+
+.result-cards {
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+.result-card {
+    margin: 0 15px;
+    width: 360px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+    border: 5px solid pink;
+}
+
+.result-card__img-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+    /* 箱の高さを決めるのにpadding-top。Hightだと、めちゃ狭だった。何を親にて56.25%なのかはわからん。だって数字大きくしたらそれだけ伸びるんだもん */
+    border: 2px solid blueviolet;
+}
+
+.result-card__img {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    border: 1px solid blue;
+}
+
+.result-card__body {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.result-card__city,
+.result-card__time {
+    margin:  0;
+    font-size: 18px;
+    border: 2px solid burlywood;
+}
+
